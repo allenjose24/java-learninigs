@@ -1,4 +1,3 @@
-package Day1;
 class CharLit {
 	/*
 	 * This file contains the character literals
