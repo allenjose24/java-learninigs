@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+WAP to check whether the given character is alphabet, number or special character
+using ternary operator  
+*/
 
 public class TernaryOp {
     public static void main(String[] args) {
