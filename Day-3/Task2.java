@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Task2 {
     /*
+    The following program is a task assigned by the mentor to practise 
+    the use case of nested if conditions in class
      * Degree btech
      * Stream It
      * knowledege Java
