@@ -21,9 +21,9 @@ public class Task3 {
             System.out.println("Enter 4 for Division");
             System.out.println("Enter 5 for Modulus\n");
 
-            Scanner sc = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter your choice: ");
-            int choice = sc.nextInt();
+            int choice = scanner.nextInt();
 
             if(choice < 1 || choice > 5){
                 System.out.println("Invalid choice");
