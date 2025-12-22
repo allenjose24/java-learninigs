@@ -13,7 +13,7 @@ public class Task11 {
         String str = scanner.next().toLowerCase();
         char gender = str.charAt(0);
         System.out.println("Are you married? (true or false): ");
-        boolean married = scanner.nextBoolean();
+        // boolean married = scanner.nextBoolean();
 
 
         if(gender=='m'){
