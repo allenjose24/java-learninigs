@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Task3 {
     /*
-    
+    WAP to create a calculator
      * 1- + Addition
      * 2- - Subtraction
      * 3- * Multiplication
@@ -21,9 +21,9 @@ public class Task3 {
             System.out.println("Enter 4 for Division");
             System.out.println("Enter 5 for Modulus\n");
 
-            Scanner scanner = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
+            int choice = sc.nextInt();
 
             if(choice < 1 || choice > 5){
                 System.out.println("Invalid choice");
