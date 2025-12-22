@@ -17,7 +17,10 @@ public class Factorial {
             System.out.println("Factorial is " + fact);
             System.out.println("press y or Y to continue");
             ch = scanner.next().charAt(0);
-        }while(ch=='y' || ch=='Y');
+            if(ch!='y' || ch!='Y'){
+                break;
+            }
+        }while(true);
         scanner.close();
     }
 }
